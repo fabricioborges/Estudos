@@ -40,12 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\Clientes\Cliente.cs" />
+    <Compile Include="Features\Enderecos\Endereco.cs" />
+    <Compile Include="Features\Entidades\Entidade.cs" />
+    <Compile Include="Features\Produtos\Bebida.cs" />
+    <Compile Include="Features\Produtos\Calzone.cs" />
+    <Compile Include="Features\Produtos\Pizza.cs" />
+    <Compile Include="Features\Produtos\Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Features\Clientes\" />
     <Folder Include="Features\Pedidos\" />
-    <Folder Include="Features\Produtos\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
