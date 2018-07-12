@@ -43,10 +43,13 @@
     <Compile Include="Features\Clientes\Cliente.cs" />
     <Compile Include="Features\Enderecos\Endereco.cs" />
     <Compile Include="Features\Entidades\Entidade.cs" />
+    <Compile Include="Features\Enums\TamanhoPizzaEnum.cs" />
+    <Compile Include="Features\Enums\TipoProdutoEnum.cs" />
     <Compile Include="Features\Produtos\Bebida.cs" />
     <Compile Include="Features\Produtos\Calzone.cs" />
     <Compile Include="Features\Produtos\Pizza.cs" />
     <Compile Include="Features\Produtos\Produto.cs" />
+    <Compile Include="Features\Produtos\Sabor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
