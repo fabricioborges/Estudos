@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Projeto_Pizzaria.Dominio.Pedido">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAECBAAAAAAAAEAACAAAAAAAgAAQAAAAIAAABAAAA=</HashCode>
+      <FileName>Pedido.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Cliente" />
+      <Property Name="FormaPagamentoEnum" />
+      <Property Name="StatusEnum" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ItemPedido" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Projeto_Pizzaria.Dominio.Produto">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Produto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projeto_Pizzaria.Dominio.Cliente">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAAAAAAAAAAQACCAAAAAEAEAA=</HashCode>
+      <FileName>Cliente.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Endereco" />
+      <Property Name="Documento" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Pedidos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Projeto_Pizzaria.Dominio.ItemPedido">
+    <Position X="8.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAACAQAAAAAAE=</HashCode>
+      <FileName>ItemPedido.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Produto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Projeto_Pizzaria.Dominio.Pizza">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pizza.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TamanhoEnum" />
+      <Property Name="TipoPizzaEnum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Projeto_Pizzaria.Dominio.Calzone">
+    <Position X="11.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calzone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projeto_Pizzaria.Dominio.Bebida">
+    <Position X="7.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bebida.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projeto_Pizzaria.Dominio.Adicional">
+    <Position X="5.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Adicional.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TamanhoEnum" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Projeto_Pizzaria.Dominio.Endereco">
+    <Position X="1.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAo=</HashCode>
+      <FileName>Endereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projeto_Pizzaria.Dominio.NumeroDocumento">
+    <Position X="1.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>NumeroDocumento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Projeto_Pizzaria.Dominio.FormaPagamentoEnum">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAg=</HashCode>
+      <FileName>FormaPagamentoEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Projeto_Pizzaria.Dominio.TamanhoEnum">
+    <Position X="7.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAEIAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>TamanhoEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Projeto_Pizzaria.Dominio.StatusEnum">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAQE=</HashCode>
+      <FileName>StatusEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Projeto_Pizzaria.Dominio.TipoPizzaEnum">
+    <Position X="11.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TipoPizzaEnum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

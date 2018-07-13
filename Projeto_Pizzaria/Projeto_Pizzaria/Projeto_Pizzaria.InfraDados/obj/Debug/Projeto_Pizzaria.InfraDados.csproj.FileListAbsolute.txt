@@ -1,0 +1,17 @@
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\Projeto_Pizzaria.InfraDados.dll.config
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\Projeto_Pizzaria.InfraDados.dll
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\Projeto_Pizzaria.InfraDados.pdb
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\EntityFramework.dll
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\Projeto_Pizzaria.Dominio.dll
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\Projeto_Pizzaria.Infra.dll
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\Projeto_Pizzaria.Dominio.pdb
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\Projeto_Pizzaria.Infra.pdb
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\Projeto_Pizzaria.Infra.dll.config
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\EntityFramework.xml
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\obj\Debug\Projeto_Pizzaria.InfraDados.csprojAssemblyReference.cache
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\obj\Debug\Projeto_Pizzaria.InfraDados.csproj.CoreCompileInputs.cache
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\obj\Debug\Projeto_Pizzaria.InfraDados.csproj.CopyComplete
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\obj\Debug\Projeto_Pizzaria.InfraDados.dll
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.InfraDados\obj\Debug\Projeto_Pizzaria.InfraDados.pdb

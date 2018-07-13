@@ -1,0 +1,6 @@
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.Dominio\bin\Debug\Projeto_Pizzaria.Dominio.dll
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.Dominio\bin\Debug\Projeto_Pizzaria.Dominio.pdb
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.Dominio\obj\Debug\Projeto_Pizzaria.Dominio.csprojAssemblyReference.cache
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.Dominio\obj\Debug\Projeto_Pizzaria.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.Dominio\obj\Debug\Projeto_Pizzaria.Dominio.dll
+C:\Users\fabricio.borges\Desktop\Estudo\Solid-Ops\Projeto_Pizzaria\Projeto_Pizzaria\Projeto_Pizzaria.Dominio\obj\Debug\Projeto_Pizzaria.Dominio.pdb
