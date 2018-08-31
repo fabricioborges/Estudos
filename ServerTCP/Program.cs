@@ -13,6 +13,9 @@ namespace ServerTCP
         static void Main(string[] args)
         {
             TcpListener server = null;
+            TcpClient client;
+            NetworkStream stream;
+
             try
             {
                 // Set the TcpListener on port 13000.
@@ -28,39 +31,42 @@ namespace ServerTCP
                 // Buffer for reading data
                 Byte[] bytes = new Byte[256];
                 String data = null;
-
+                Console.Write("Waiting for a connection... ");
+                client = server.AcceptTcpClient();
+                bool done = false;
                 // Enter the listening loop.
-                while (true)
+                while (!done)
                 {
                     Console.Write("Waiting for a connection... ");
-
-                    // Perform a blocking call to accept requests.
-                    // You could also user server.AcceptSocket() here.
-                    TcpClient client = server.AcceptTcpClient();
-                    Console.WriteLine("Connected!");
-
+                    int i = 0;
                     data = null;
+                    try
+                    {
+                        stream = client.GetStream();
+                        i = stream.Read(bytes, 0, bytes.Length);
+                        data = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
+                        Console.WriteLine("Connected!");
+                        Console.WriteLine("Received: {0}", data);
+                        // Process the data sent by the client.
+                        data = data.ToUpper();
 
-                    NetworkStream stream = client.GetStream();
+                        byte[] msg = System.Text.Encoding.ASCII.GetBytes(data);
+                        if (i < 1)
+                        {
+                            client.Close();
 
-                    int i = stream.Read(bytes, 0, bytes.Length);
+                        }
+                        else
+                        {
+                            stream.Write(msg, 0, msg.Length);
+                            Console.WriteLine("Sent: {0}", data);
+                        }
+                    }
+                    catch
+                    {
 
-                    // Translate data bytes to a ASCII string.
-                    data = System.Text.Encoding.ASCII.GetString(bytes, 0, i);
-                    Console.WriteLine("Received: {0}", data);
-
-                    // Process the data sent by the client.
-                    data = data.ToUpper();
-
-                    byte[] msg = System.Text.Encoding.ASCII.GetBytes(data);
-
-                    // Send back a response.
-                    stream.Write(msg, 0, msg.Length);
-                    Console.WriteLine("Sent: {0}", data);
-
-
-                    // Shutdown and end connection
-                    client.Close();
+                        client.Close();
+                    }
                 }
             }
             catch (SocketException e)
